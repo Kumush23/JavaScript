@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+button{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+
+button:hover{
+background: rgb(164, 238, 91);
+color: black;
+}
+
+.slider{
+    width:450px;
+    height: 300;
+    border: 2px solid black;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.slider-line{
+    height: 300px;
+    width: 4500px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition:  1s;
+}
